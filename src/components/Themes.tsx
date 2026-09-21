@@ -32,6 +32,7 @@ export function useTheme() {
   useEffect(() => {
     const theme = themes.find((t) => t.id === palette)!;
     document.body.classList.toggle("night", night);
+    document.documentElement.classList.toggle("dark", night);
     document.body.dataset.chatTheme = palette;
     keys.forEach((key, i) =>
       document.body.style.setProperty(

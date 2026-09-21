@@ -1,4 +1,8 @@
+@import "tailwindcss";
+
 :root {
+  --background: #fffdf8;
+  --foreground: #223c39;
   --paper: #f3f0e9;
   --surface: #fffdf8;
   --soft: #eeeae1;
@@ -1711,7 +1715,7 @@ dialog,
   top: 0;
   width: 100px;
   height: 190px;
-  z-index: 15;
+  z-index: 50;
   pointer-events: none;
   color: var(--ink);
 }
