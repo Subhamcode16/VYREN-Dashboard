@@ -173,14 +173,17 @@ button:hover {
   text-align: left;
   gap: 10px;
   width: 100%;
-  border: 1px solid transparent;
+  border: 0 !important;
+  outline: none !important;
   padding: 12px 9px;
   background: transparent;
   margin-bottom: 3px;
 }
 .thread[aria-pressed="true"] {
   background: var(--soft);
-  border-color: var(--line);
+  border: 0 !important;
+  border-color: transparent !important;
+  outline: none !important;
 }
 .avatar {
   width: 35px;
@@ -956,7 +959,9 @@ body {
   gap: 17px;
   padding: 16px 14px 10px;
   border-radius: 24px;
-  border: 1px solid var(--line);
+  border: 0 !important;
+  border-color: transparent !important;
+  outline: none !important;
   background: var(--surface);
   box-shadow:
     0 2px 8px #00000005,

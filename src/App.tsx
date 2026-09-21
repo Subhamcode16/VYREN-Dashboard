@@ -160,11 +160,6 @@ export function App() {
               </div>
             </div>
             <div className="headbuttons">
-              <IconButton
-                icon="scrubber"
-                label="Open chapter scrubber"
-                onClick={() => setScrubberOpen(true)}
-              />
               <Notifications
                 items={state.notifications}
                 projects={state.projects}
